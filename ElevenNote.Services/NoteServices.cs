@@ -66,6 +66,7 @@ namespace ElevenNote.Services
 					{
 						NoteId = entity.NoteID,
 						Title = entity.Title,
+						ClassSubject = entity.ClassSubject,
 						Content = entity.Content,
 						CreatedUtc = entity.CreatedUtc,
 						ModifiedUtc = entity.ModifiedUtc
