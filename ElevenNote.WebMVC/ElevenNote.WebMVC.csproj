@@ -293,6 +293,10 @@
       <Project>{3f740e5f-0d12-47d7-bfe7-0da54c00bcaf}</Project>
       <Name>ElevenNote.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.Services\ElevenNote.Services.csproj">
+      <Project>{CEBE1CCE-7F39-4D89-BA06-01CB18434CFF}</Project>
+      <Name>ElevenNote.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
